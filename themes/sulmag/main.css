@@ -1,0 +1,134 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #005591;
+	background-image: url(images/bg3.png);
+	background-repeat: no-repeat;
+	background-position: 50% -2%;
+	background-size: 100%;
+}
+
+/*clearfix*/         
+.clearfix:after {    
+	content: ".";
+	display: block;   
+	clear: both;      
+	visibility: hidden;
+	line-height: 0;   
+	height: 0;
+}
+
+header{
+	position: relative;
+}
+
+nav{
+	display: block;
+	float: left;
+}
+
+nav img{
+	display: block;
+	height: 65%;
+	margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border: 0;
+}
+
+nav div{
+	position: relative;
+	float: left;
+	height: 100px;
+	padding-right: 30px;
+	padding-left: 30px;
+	text-align: center;
+	border-right : 1px solid white;
+	background-image: url(images/navBg.png);
+}
+
+nav div:hover{
+	background:url(images/navBgNeg.png);
+}
+
+aside#logo{
+	float: right;
+	width: 25%;
+	height: 100px;
+	background-color: white;
+	-webkit-border-bottom-left-radius: 40px;
+  -moz-border-bottom-left-radius: 40px;
+  -o-border-bottom-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  -webkit-box-shadow: -3px 3px 20px #000000;
+  -moz-box-shadow: -3px 3px 20px #000000;
+  -o-box-shadow: -3px 3px 20px #000000;
+  box-shadow: -3px 3px 20px #000000;
+  opacity: 0.9;
+}
+
+aside#logo img{
+	display: block;
+	width: 80%;
+	max-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+}
+
+section#cnt{
+	position: relative;
+	display: block;
+	width: 75%;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 50px;
+	padding-top: 33px;
+	background-color: white;
+	-webkit-border-top-right-radius: 40px;
+  -moz-border-top-right-radius: 40px;
+  -o-border-top-right-radius: 40px;
+  border-top-right-radius: 40px;
+  -webkit-border-bottom-right-radius: 40px;
+  -moz-border-bottom-right-radius: 40px;
+  -o-border-bottom-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  -webkit-box-shadow: -3px 3px 20px #000000;
+  -moz-box-shadow: -3px 3px 20px #000000;
+  -o-box-shadow: -3px 3px 20px #000000;
+  box-shadow: -3px 3px 20px #000000;
+  z-index: 1;
+  opacity: 0.9;
+}
+
+section#cnt img{
+	width: 100%;
+	height: auto;
+}
+
+section#cnt ul{
+	padding-left: 80px;
+}
+
+section#cnt p, section#cnt h1, section#cnt h2{
+	padding-left: 30px;
+	padding-right: 20px;
+}
+
+footer{
+	position: relative;
+	display: block;
+	margin-top: -10px;
+	width: 75%;
+	height: 40px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	color: white;
+}
+
+@media all and (max-width: 1320px){
+	aside#logo img{
+		margin-top: 30px;
+	}
+}

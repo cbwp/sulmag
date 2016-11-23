@@ -1,0 +1,25 @@
+body {
+	font-family: 'PT Sans', sans-serif;
+	color: #005591;
+}
+
+nav a{
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover{
+	text-decoration: underline;
+}
+
+nav a:active{
+	text-decoration: underline;
+}
+
+section#cnt{
+	color: #005591;
+}
+
+footer a{
+	color: white;
+}
